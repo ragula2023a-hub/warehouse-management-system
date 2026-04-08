@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/ragula2023a-hub/warehouse-management-system.git'
+                git branch: 'main', url: 'https://github.com/ragula2023a-hub/warehouse-management-system.git'
             }
         }
 
